@@ -21,7 +21,8 @@ header {
 }
 
 .logo {
-    width: 100px; /* Resize logo */
+    width: 120px;
+    height: auto;
     margin-bottom: 1rem;
 }
 
@@ -38,6 +39,7 @@ h1 {
 .timeline-container {
     display: flex;
     flex-direction: row; /* Horizontal scroll */
+    justify-content: center; /* Center the timeline on desktop */
     gap: 30px; /* Distinct spacing */
     padding: 40px;
     overflow-x: auto; /* Enable horizontal scrolling */
