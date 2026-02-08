@@ -15,8 +15,9 @@ body {
 /* Header Styling */
 header {
     text-align: center;
-    padding: 2rem 1rem;
-    background-color: white;
+    padding: 3rem 1rem;
+    background: linear-gradient(to bottom, #0071C5, #005b9f);
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -31,8 +32,13 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+header h1 {
+    color: white;
+}
+
 .subtitle {
-    font-color: #666;
+    color: white;
+    line-height: 1.5;
 }
 
 /* Timeline Container (Desktop - Horizontal) */
